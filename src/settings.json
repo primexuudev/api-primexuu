@@ -105,6 +105,11 @@
           "name": "AIO Downloader",
           "desc": "Download Video TikTok, YT, IG, FB sekaligus",
           "path": "/api/downloader/aio?url="
+        },
+        {
+          "name": "Any Video Downloader",
+          "desc": "Universal Video Downloader (Multiple Platforms)",
+          "path": "/api/downloader/any?url="
         }
       ]
     }
