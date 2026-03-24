@@ -45,11 +45,6 @@
           "name": "Gemini AI",
           "desc": "Chat with Gemini Web",
           "path": "/api/ai/gemini?text=halo"
-        },
-        {
-          "name": "Image Editor AI",
-          "desc": "Ubah foto kamu (Anime, Hijab, Botak, dll)",
-          "path": "/api/tools/editimage?type=toanime&url=LINK_FOTO_KAMU"
         }
       ]
     },
