@@ -65,6 +65,11 @@
           "name": "Bible AI",
           "desc": "Tanya jawab seputar Alkitab (AI)",
           "path": "/api/ai/bible?ask="
+        },
+        {
+          "name": "AI Image Editor",
+          "desc": "Ubah foto menjadi Anime, Hijab, Botak, dll",
+          "path": "/api/tools/editimage?type=toanime&url="
         }
       ]
     },
