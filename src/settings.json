@@ -100,6 +100,11 @@
           "name": "YouTube Play",
           "desc": "Cari & Download Musik YouTube",
           "path": "/api/ytplay?query="
+        },
+        {
+          "name": "AIO Downloader",
+          "desc": "Download Video TikTok, YT, IG, FB sekaligus",
+          "path": "/api/downloader/aio?url="
         }
       ]
     }
