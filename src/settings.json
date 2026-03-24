@@ -40,6 +40,11 @@
           "desc": "Talk with hydromind",
           "path": "/ai/hydromind?text=&model=",
           "innerDesc": "See the list of supported AI models here: https://mind.hydrooo.web.id"
+        },
+        {
+          "name": "Gemini AI",
+          "desc": "Chat with Gemini Web",
+          "path": "/api/ai/gemini?text=halo"
         }
       ]
     },
