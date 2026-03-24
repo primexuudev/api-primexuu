@@ -62,6 +62,16 @@
           "path": "/search/youtube?q="
         }
       ]
+    },
+    {
+      "name": "Downloader",
+      "items": [
+        {
+          "name": "Instagram DL",
+          "desc": "Download Instagram Video/Reels",
+          "path": "/api/download/ig?url="
+        }
+      ]
     }
   ]
 }
