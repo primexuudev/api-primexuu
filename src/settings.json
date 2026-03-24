@@ -95,6 +95,11 @@
           "name": "Info Cuaca",
           "desc": "Cek suhu dan kondisi angin di berbagai kota",
           "path": "/api/tools/cuaca?kota=jakarta"
+        },
+        {
+          "name": "Ephoto360 Effects",
+          "desc": "Buat teks efek 3D, Neon, dan Glitch",
+          "path": "/api/tools/ephoto?type=glitchtext&teks=PrimeXuu"
         }
       ]
     },
