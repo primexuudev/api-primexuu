@@ -65,6 +65,11 @@
           "name": "YouTube",
           "desc": "Video search",
           "path": "/search/youtube?q="
+        },
+        {
+          "name": "Lyrics Search",
+          "desc": "Cari lirik lagu favoritmu",
+          "path": "/api/search/lyrics?judul="
         }
       ]
     },
