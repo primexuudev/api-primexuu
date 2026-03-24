@@ -125,6 +125,11 @@
           "name": "Any Video Downloader",
           "desc": "Universal Video Downloader (Multiple Platforms)",
           "path": "/api/downloader/any?url="
+        },
+        {
+          "name": "Facebook Downloader",
+          "desc": "Download video Facebook HD/SD",
+          "path": "/api/downloader/fb?url="
         }
       ]
     }
