@@ -85,11 +85,6 @@
           "name": "YouTube Play",
           "desc": "Cari & Download Musik YouTube",
           "path": "/api/ytplay?query="
-        },
-        {
-          "name": "AIO Downloader",
-          "desc": "Download dari TikTok, YT, IG, FB (Auto)",
-          "path": "/api/download/aio?url="
         }
       ]
     }
