@@ -50,6 +50,11 @@
           "name": "NoteGPT AI",
           "desc": "Chat dengan GPT-4.1 Mini (Fast)",
           "path": "/api/ai/notegpt?q=siapa+presiden+indonesia"
+        },
+        {
+          "name": "Xuu AI",
+          "desc": "Advanced AI Assistant by PrimeXuu",
+          "path": "/api/ai/xuuai?q=halo&prompt=kamu+adalah+asisten+pribadi+yang+galak"
         }
       ]
     },
