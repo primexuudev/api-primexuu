@@ -100,6 +100,11 @@
           "name": "Ephoto360 Effects",
           "desc": "Buat teks efek 3D, Neon, dan Glitch",
           "path": "/api/tools/ephoto?type=glitchtext&teks=PrimeXuu"
+        },
+        {
+          "name": "Jadwal Sholat",
+          "desc": "Cek jadwal sholat harian berdasarkan kota",
+          "path": "/api/tools/jadwalsholat?kota=jakarta"
         }
       ]
     },
