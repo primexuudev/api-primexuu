@@ -45,6 +45,11 @@
           "name": "Gemini AI",
           "desc": "Chat with Gemini Web",
           "path": "/api/ai/gemini?text=halo"
+        },
+        {
+          "name": "NoteGPT AI",
+          "desc": "Chat dengan GPT-4.1 Mini (Fast)",
+          "path": "/api/ai/notegpt?q=siapa+presiden+indonesia"
         }
       ]
     },
