@@ -60,6 +60,11 @@
           "name": "Nano Banana AI",
           "desc": "AI Magic Eraser & Image Editor",
           "path": "/api/tools/nanobanana?prompt=remove+background&url="
+        },
+        {
+          "name": "Bible AI",
+          "desc": "Tanya jawab seputar Alkitab (AI)",
+          "path": "/api/ai/bible?ask="
         }
       ]
     },
