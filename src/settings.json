@@ -155,6 +155,26 @@
           "name": "Remove Background",
           "desc": "Hapus background gambar secara otomatis menjadi transparan",
           "path": "/api/tools/removebg?url=LINK_GAMBAR"
+        },
+        {
+          "name": "Melolo Search",
+          "desc": "Cari drama atau anime di database Melolo",
+          "path": "/api/search/melolo?q=Istri"
+        },
+        {
+          "name": "Melolo Latest",
+          "desc": "Ambil daftar update drama terbaru",
+          "path": "/api/search/melolo-latest"
+        },
+        {
+          "name": "Melolo Detail",
+          "desc": "Lihat detail drama dan daftar episode",
+          "path": "/api/search/melolo-detail?id=ID_DRAMA"
+        },
+        {
+           "name": "Melolo Watch",
+           "desc": "Dapatkan link streaming dan subtitle",
+           "path": "/api/search/melolo-watch?watchId=ID_WATCH"
         }
       ]
     },
