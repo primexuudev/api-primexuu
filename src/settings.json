@@ -150,6 +150,11 @@
           "name": "Facebook Downloader",
           "desc": "Download video Facebook HD/SD",
           "path": "/api/downloader/fb?url="
+        },
+        {
+          "name": "Pinterest Downloader",
+          "desc": "Download video atau foto dari Pinterest",
+          "path": "/api/downloader/pinterest?url="
         }
       ]
     }
