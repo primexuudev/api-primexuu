@@ -130,6 +130,11 @@
           "name": "TikTok Search",
           "desc": "Cari video TikTok terbaru tanpa watermark",
           "path": "/api/search/ttsearch?query=anime+edit"
+        },
+        {
+          "name": "XVideo Search",
+          "desc": "Cari video dewasa berdasarkan keyword",
+          "path": "/api/search/xvideo?q="
         }
       ]
     },
