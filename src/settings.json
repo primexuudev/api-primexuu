@@ -115,6 +115,11 @@
           "name": "NGL Spammer",
           "desc": "Kirim pesan anonim massal ke NGL Link",
           "path": "/api/tools/nglspam?username=...&message=P&count=5"
+        },
+        {
+          "name": "Pinterest Search",
+          "desc": "Cari inspirasi gambar dari Pinterest",
+          "path": "/api/search/pinterest?query="
         }
       ]
     },
