@@ -197,6 +197,16 @@
           "path": "/api/downloader/ytdl?url=LINK_YT&format=mp3"
         }
       ]
+    },
+    {
+      "name": "maker",
+      "items": [
+        {
+          "name": "Brat Gura Maker",
+          "desc": "Buat sticker brat dengan background Gura",
+          "path": "/api/maker/bratgura?teks=Halo"
+        }
+      ]
     }
   ]
 }
