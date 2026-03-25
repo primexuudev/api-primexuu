@@ -115,11 +115,6 @@
           "name": "NGL Spammer",
           "desc": "Kirim pesan anonim massal ke NGL Link",
           "path": "/api/tools/nglspam?username=...&message=P&count=5"
-        },
-        {
-          "name": "Nulis",
-          "desc": "Generator teks menjadi tulisan buku tangan",
-          "path": "/api/tools/nulis?teks=Halo ini tulisan PrimeXuu"
         }
       ]
     },
