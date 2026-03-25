@@ -120,6 +120,11 @@
           "name": "Pinterest Search",
           "desc": "Cari inspirasi gambar dari Pinterest",
           "path": "/api/search/pinterest?query="
+        },
+        {
+          "name": "SS Website",
+          "desc": "Ambil screenshot tampilan website via URL",
+          "path": "/api/tools/ssweb?url=https://primexuu.web.id"
         }
       ]
     },
