@@ -105,6 +105,11 @@
           "name": "Jadwal Sholat",
           "desc": "Cek jadwal sholat harian berdasarkan kota",
           "path": "/api/tools/jadwalsholat?kota=jakarta"
+        },
+        {
+          "name": "Panel Pterodactyl",
+          "desc": "Otomatis buat user & server panel",
+          "path": "/api/tools/pterodactyl?user=admin&ram=1gb&domain=https://panel.kamu.com&ptla=API_KEY_PTLA"
         }
       ]
     },
