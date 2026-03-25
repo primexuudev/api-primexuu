@@ -135,6 +135,11 @@
           "name": "XVideo Search",
           "desc": "Cari video dewasa berdasarkan keyword",
           "path": "/api/search/xvideo?q="
+        },
+        {
+          "name": "Upscale",
+          "desc": "Perjelas dan perbesar resolusi gambar menggunakan AI",
+          "path": "/api/tools/upscale?url=LINK_GAMBAR&scale=4"
         }
       ]
     },
