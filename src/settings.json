@@ -65,6 +65,11 @@
           "name": "Bible AI",
           "desc": "Tanya jawab seputar Alkitab (AI)",
           "path": "/api/ai/bible?ask="
+        },
+        {
+          "name": "Text to Media",
+          "desc": "Ubah teks jadi gambar atau video pendek",
+          "path": "/api/ai/txt2?prompt=cyberpunk+city&type=video"
         }
       ]
     },
