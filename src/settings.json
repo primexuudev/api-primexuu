@@ -197,16 +197,6 @@
           "path": "/api/downloader/ytdl?url=LINK_YT&format=mp3"
         }
       ]
-    },
-    {
-      "name": "Maker",
-      "items": [
-        {
-           "name": "IQC Generator",
-           "desc": "Buat gambar quote keren secara otomatis dari teks",
-           "path": "/api/maker/iqc?teks=Masa+depan+adalah+milik+mereka+yang+percaya"
-        }
-      ]
     }
   ]
 }
