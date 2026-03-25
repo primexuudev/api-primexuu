@@ -150,6 +150,11 @@
           "name": "Upscale",
           "desc": "Perjelas dan perbesar resolusi gambar menggunakan AI",
           "path": "/api/tools/upscale?url=LINK_GAMBAR&scale=4"
+        },
+        {
+          "name": "Remove Background",
+          "desc": "Hapus background gambar secara otomatis menjadi transparan",
+          "path": "/api/tools/removebg?url=LINK_GAMBAR"
         }
       ]
     },
