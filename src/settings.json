@@ -175,6 +175,11 @@
           "name": "TikTok Downloader",
           "desc": "Download video (No WM) atau foto slide TikTok",
           "path": "/api/downloader/tiktok?url="
+        },
+        {
+          "name": "Ytmp4/Ytmp3",
+          "desc": "Download MP3 atau MP4 dari YouTube",
+          "path": "/api/downloader/ytdl?url=LINK_YT&format=mp3"
         }
       ]
     }
