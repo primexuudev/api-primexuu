@@ -125,6 +125,11 @@
           "name": "SS Website",
           "desc": "Ambil screenshot tampilan website via URL",
           "path": "/api/tools/ssweb?url=https://primexuu.web.id"
+        },
+        {
+          "name": "TikTok Search",
+          "desc": "Cari video TikTok terbaru tanpa watermark",
+          "path": "/api/search/ttsearch?query=anime+edit"
         }
       ]
     },
