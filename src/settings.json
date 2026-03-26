@@ -175,6 +175,11 @@
            "name": "Melolo Watch",
            "desc": "Dapatkan link streaming dan subtitle",
            "path": "/api/search/melolo-watch?watchId=ID_WATCH"
+        },
+        {
+          "name": "Kompas News",
+          "desc": "Dapatkan berita terbaru dan trending dari Kompas.com",
+          "path": "/api/search/kompas"
         }
       ]
     },
