@@ -190,6 +190,11 @@
           "name": "APK Builder",
           "desc": "Ubah link website apapun menjadi aplikasi Android (.apk)",
           "path": "/api/tools/apkbuilder?url=https://www.youtube.com&name=YoutubeApp&icon=LINK_GAMBAR_ICON"
+        },
+        {
+          "name": "Transfermarkt Search",
+          "desc": "Cari data profil, harga pasar, dan statistik pemain bola",
+          "path": "/api/search/transfermarkt?q=Ronaldo"
         }
       ]
     },
