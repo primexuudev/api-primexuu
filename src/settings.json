@@ -195,6 +195,21 @@
           "name": "Transfermarkt Search",
           "desc": "Cari data profil, harga pasar, dan statistik pemain bola",
           "path": "/api/search/transfermarkt?q=Ronaldo"
+        },
+        {
+          "name": "Donghub Search",
+          "desc": "Cari Anime China (Donghua) di Donghub",
+          "path": "/api/search/donghub?q=Way+of+Choices"
+        },
+        {
+          "name": "Donghub Detail",
+          "desc": "Lihat detail sinopsis dan list episode Donghua",
+          "path": "/api/search/donghub-detail?url=URL_DONGHUA"
+        },
+        {
+          "name": "Donghub Watch",
+          "desc": "Dapatkan link streaming video Donghua",
+          "path": "/api/search/donghub-watch?url=URL_EPISODE"
         }
       ]
     },
