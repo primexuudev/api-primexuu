@@ -250,6 +250,11 @@
           "name": "MediaFire Downloader",
           "desc": "Dapatkan direct link dari file MediaFire",
           "path": "/api/downloader/mediafire?url=https://www.mediafire.com/file/b89hlvgqub8uwhn/MT+MANAGER+INI+BUAT+YANG+ZArchiver+nya+er"
+        },
+        {
+          "name": "Ytmp3",
+          "desc": "Download lagu MP3 (128kbps) dari YouTube dengan cepat",
+          "path": "/api/downloader/ytmp3?url=https://www.youtube.com/watch?v=dQw4w9WgXcQ"
         }
       ]
     }
