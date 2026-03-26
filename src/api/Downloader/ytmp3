@@ -1,0 +1,124 @@
+const axios = require('axios');
+
+/**
+ * Fitur: YouTube to MP3 (YTmp3)
+ * Deskripsi: Convert dan download audio MP3 dari YouTube (128kbps)
+ */
+
+async function ytmp3(url) {
+    try {
+        // 1. Ambil Judul Video (Opsional, sebagai fallback)
+        let title = "Unknown Title";
+        try {
+            const oembed = await axios.get("https://www.youtube.com/oembed", {
+                params: { url: url, format: "json" },
+                headers: { 
+                    "Accept": "application/json", 
+                    "User-Agent": "Mozilla/5.0" 
+                },
+                timeout: 5000 // Timeout cepat agar tidak membebani
+            });
+            title = oembed.data.title;
+        } catch (e) {
+            // Abaikan jika oembed gagal, kita tetap lanjut proses convert
+        }
+
+        // 2. Request Convert ke MP3
+        const convert = await axios.post(
+            "https://hub.ytconvert.org/api/download",
+            {
+                url: url,
+                os: "android",
+                output: { type: "audio", format: "mp3" },
+                audio: { bitrate: "128k" }
+            },
+            {
+                headers: {
+                    "Accept": "application/json",
+                    "Content-Type": "application/json"
+                },
+                timeout: 10000
+            }
+        );
+
+        const statusUrl = convert.data.statusUrl;
+        if (!statusUrl) throw new Error("Gagal mendapatkan link antrean dari provider.");
+
+        // 3. Polling Status (Aman dari Infinite Loop)
+        let result = null;
+        
+        // Maksimal 20 kali percobaan (sekitar 40 detik)
+        for (let i = 0; i < 20; i++) {
+            const status = await axios.get(statusUrl, {
+                headers: { "Accept": "application/json" },
+                timeout: 5000
+            });
+
+            if (status.data.status === "completed") {
+                result = status.data;
+                break;
+            } else if (status.data.status === "failed") {
+                throw new Error("Provider gagal mengkonversi video ini.");
+            }
+
+            // Tunggu 2 detik sebelum ngecek lagi
+            await new Promise(r => setTimeout(r, 2000));
+        }
+
+        // Kalau setelah 20 kali cek masih belum selesai
+        if (!result) {
+            throw new Error("Proses konversi terlalu lama (Timeout). Silakan coba lagi nanti.");
+        }
+
+        return {
+            title: result.title || title,
+            duration: result.duration || "N/A",
+            downloadUrl: result.downloadUrl
+        };
+
+    } catch (err) {
+        throw new Error(err.response?.data?.message || err.message || "Gagal memproses YouTube ke MP3.");
+    }
+}
+
+/**
+ * Handler Utama
+ */
+module.exports = (app) => {
+    app.get('/api/downloader/ytmp3', async (req, res) => {
+        const { url } = req.query;
+
+        // 1. Validasi Input
+        if (!url) {
+            return res.status(400).json({ 
+                status: false, 
+                message: 'Parameter "url" wajib diisi! Contoh: /api/downloader/ytmp3?url=LINK_YOUTUBE' 
+            });
+        }
+
+        if (!url.includes('youtu')) {
+            return res.status(400).json({ 
+                status: false, 
+                message: 'URL tidak valid. Pastikan itu adalah link YouTube.' 
+            });
+        }
+
+        try {
+            // 2. Eksekusi Downloader
+            const data = await ytmp3(url);
+
+            // 3. Response Sukses
+            res.status(200).json({
+                status: true,
+                result: data
+            });
+
+        } catch (e) {
+            res.status(500).json({ 
+                status: false, 
+                message: e.message 
+            });
+        }
+    });
+};
+
