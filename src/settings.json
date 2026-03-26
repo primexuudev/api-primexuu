@@ -210,6 +210,11 @@
           "name": "Donghub Watch",
           "desc": "Dapatkan link streaming video Donghua",
           "path": "/api/search/donghub-watch?url=URL_EPISODE"
+        },
+        {
+          "name": "Spotify Search",
+          "desc": "Cari metadata lagu, artist, dan link dari Spotify",
+          "path": "/api/search/spotify?q=batas+senja"
         }
       ]
     },
