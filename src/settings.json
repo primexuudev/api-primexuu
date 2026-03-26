@@ -225,6 +225,11 @@
           "name": "Ytmp4/Ytmp3",
           "desc": "Download MP3 atau MP4 dari YouTube",
           "path": "/api/downloader/ytdl?url=LINK_YT&format=mp3"
+        },
+        {
+          "name": "Apple Music DL",
+          "desc": "Download lagu dari Apple Music dengan berbagai kualitas",
+          "path": "/api/download/applemusic?url=https://music.apple.com/us/song/be-with-you/1885607727"
         }
       ]
     }
