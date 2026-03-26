@@ -240,6 +240,11 @@
           "name": "Apple Music DL",
           "desc": "Download lagu dari Apple Music dengan berbagai kualitas",
           "path": "/api/download/applemusic?url=https://music.apple.com/us/song/be-with-you/1885607727"
+        },
+        {
+          "name": "MediaFire Downloader",
+          "desc": "Dapatkan direct link dari file MediaFire",
+          "path": "/api/downloader/mediafire?url=https://www.mediafire.com/file/b89hlvgqub8uwhn/MT+MANAGER+INI+BUAT+YANG+ZArchiver+nya+er"
         }
       ]
     }
