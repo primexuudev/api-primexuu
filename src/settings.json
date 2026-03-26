@@ -180,6 +180,11 @@
           "name": "Kompas News",
           "desc": "Dapatkan berita terbaru dan trending dari Kompas.com",
           "path": "/api/search/kompas"
+        },
+        {
+          "name": "Catbox Uploader",
+          "desc": "Upload gambar, video, atau file dari URL ke Catbox.moe",
+          "path": "/api/tools/catbox?url=LINK_GAMBAR"
         }
       ]
     },
