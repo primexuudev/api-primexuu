@@ -215,6 +215,21 @@
           "name": "Spotify Search",
           "desc": "Cari metadata lagu, artist, dan link dari Spotify",
           "path": "/api/search/spotify?q=batas+senja"
+        },
+        {
+          "name": "Anichin Search / Latest",
+          "desc": "Cari Donghua atau ambil update terbaru dari Anichin",
+          "path": "/api/search/anichin?q=btth"
+        },
+        {
+          "name": "Anichin Detail",
+          "desc": "Lihat info anime dan list episode",
+          "path": "/api/search/anichin-detail?url=URL_SERIES"
+        },
+        {
+          "name": "Anichin Watch",
+          "desc": "Dapatkan link streaming dan link download",
+          "path": "/api/search/anichin-watch?url=URL_EPISODE"
         }
       ]
     },
