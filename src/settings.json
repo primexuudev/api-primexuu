@@ -290,6 +290,11 @@
           "name": "Ytmp3",
           "desc": "Download lagu MP3 (128kbps) dari YouTube dengan cepat",
           "path": "/api/downloader/ytmp3?url=https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        },
+        {
+          "name": "Igdl",
+          "desc": "Download Video/Photo dari Instagram",
+          "path": "/api/downloader/igdl?url="
         }
       ]
     }
