@@ -292,7 +292,7 @@
           "path": "/api/downloader/ytmp3?url=https://www.youtube.com/watch?v=dQw4w9WgXcQ"
         },
         {
-          "name": "Igdl",
+          "name": "Instagram Downloader",
           "desc": "Download Video/Photo dari Instagram",
           "path": "/api/downloader/igdl?url="
         }
