@@ -295,6 +295,11 @@
           "name": "Instagram Downloader",
           "desc": "Download Video/Photo dari Instagram",
           "path": "/api/downloader/igdl?url="
+        },
+        {
+          "name": "SoundCloud Downloader",
+          "desc": "Download lagu dari SoundCloud (MP3)",
+          "path": "/api/downloader/soundcloud?url="
         }
       ]
     }
