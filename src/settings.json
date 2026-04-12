@@ -230,6 +230,11 @@
           "name": "Anichin Watch",
           "desc": "Dapatkan link streaming dan link download",
           "path": "/api/search/anichin-watch?url=URL_EPISODE"
+        },
+        {
+          "name": "WA Channel Search",
+          "desc": "Cari informasi/metadata detail Channel WhatsApp",
+          "path": "/api/search/wa-channel?url="
         }
       ]
     },
