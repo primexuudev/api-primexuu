@@ -240,6 +240,11 @@
           "name": "Apple Music Search",
           "desc": "Cari lagu di Apple Music",
           "path": "/api/search/applemusic?q="
+        },
+        {
+          "name": "TikTok Stalk",
+          "desc": "Stalk profile TikTok berdasarkan username",
+          "path": "/api/search/ttstalk?username="
         }
       ]
     },
