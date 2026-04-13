@@ -315,6 +315,11 @@
           "name": "SoundCloud Downloader",
           "desc": "Download lagu dari SoundCloud (MP3)",
           "path": "/api/downloader/soundcloud?url="
+        },
+        {
+          "name": "SoundCloud Search",
+          "desc": "Cari lagu dan playlist di SoundCloud",
+          "path": "/api/downloader/soundcloud?q="
         }
       ]
     }
