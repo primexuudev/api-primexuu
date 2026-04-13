@@ -320,6 +320,11 @@
           "name": "SoundCloud Search",
           "desc": "Cari lagu dan playlist di SoundCloud",
           "path": "/api/downloader/soundcloud?q="
+        },
+        {
+          "name": "AN1 Downloader",
+          "desc": "Ambil info detail & link download MOD APK dari AN1",
+          "path": "/api/downloader/an1?url="
         }
       ]
     }
